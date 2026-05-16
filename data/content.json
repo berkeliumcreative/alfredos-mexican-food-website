@@ -1,47 +1,101 @@
 {
-  "businessName": "Sample Business",
-  "tagline": "Quality Service You Can Trust",
+  "businessName": "Alfredo's Mexican Food",
+  "tagline": "Authentic Mexican classics. A Burbank tradition.",
   "hero": {
-    "heading": "Welcome to Our Business",
-    "subheading": "Professional service in your area.",
-    "ctaText": "Contact Us",
-    "ctaLink": "#contact"
+    "heading": "Authentic Mexican Flavors",
+    "subheading": "Family-recipe tacos, burritos, and combo plates served fresh every day in the heart of Burbank.",
+    "ctaText": "Order by Phone",
+    "ctaLink": "tel:8189722625",
+    "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFVMdMQQEaoitHL5Lsr9qlfTZGPMw0Wr5pugVla2oBAQKVp870eQAsziZ7cbA1wozseIMDi440FOpniswWacaKmObjX44Oo3-dgIxZbCCrlmoGnsINK1_RSlhDRruZKYjETQnqgpkLR0rQ=w1920-h1080-k-no"
   },
   "about": {
-    "heading": "About Us",
+    "heading": "566 reviews. 4.3 stars. Generations of regulars.",
     "paragraphs": [
-      "We are a local business dedicated to providing quality service.",
-      "Our team has years of experience and we take pride in our work."
+      "Alfredo's has been serving Burbank's favorite Mexican food for years — the kind of place where the carnitas are slow-cooked, the tortillas are warm, and your usual order is known before you walk in.",
+      "Whether you're stopping in for a quick lunch or feeding the whole family, every plate comes out the way it's supposed to: bold, generous, and made with care."
     ]
   },
   "services": [
-    { "title": "Service One", "description": "Professional service with attention to detail.", "icon": "star" },
-    { "title": "Service Two", "description": "Quality work at competitive prices.", "icon": "award" },
-    { "title": "Service Three", "description": "Fast, reliable, and thorough.", "icon": "check" }
+    {
+      "title": "Burritos & Tacos",
+      "description": "Hand-rolled burritos and street-style tacos packed with carne asada, al pastor, carnitas, or chicken.",
+      "price": "From $4.99"
+    },
+    {
+      "title": "Combo Plates",
+      "description": "Hearty platters with rice, beans, and your choice of enchiladas, chile rellenos, tamales, or tostadas.",
+      "price": "From $12.99"
+    },
+    {
+      "title": "Tortas & Quesadillas",
+      "description": "Generous Mexican sandwiches on telera rolls and crispy cheese quesadillas with all the fixings.",
+      "price": "From $8.99"
+    },
+    {
+      "title": "Family Pack",
+      "description": "Feed four with a mix of proteins, sides, rice, beans, and a stack of warm tortillas.",
+      "price": "From $39.99"
+    },
+    {
+      "title": "Desayuno All Day",
+      "description": "Huevos rancheros, chilaquiles, breakfast burritos — Mexican breakfast served from open to close.",
+      "price": "From $9.99"
+    },
+    {
+      "title": "Catering",
+      "description": "Office lunches, birthdays, quinces, family gatherings — call ahead for trays.",
+      "price": "Call for quote"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Maria L.",
+      "text": "Best al pastor in Burbank, hands down. I've been coming here for years and they have never missed.",
+      "rating": 5
+    },
+    {
+      "name": "David R.",
+      "text": "Generous portions, fair prices, and the salsa bar alone is worth the trip. The carnitas burrito is unreal.",
+      "rating": 5
+    },
+    {
+      "name": "Jessica T.",
+      "text": "Family-run feel. They remember your order, they are fast, and the food is consistently good every single time.",
+      "rating": 4
+    }
   ],
   "contact": {
-    "address": "123 Main St, City, ST 12345",
-    "phone": "(555) 123-4567",
-    "email": "info@sample.com",
+    "phone": "(818) 972-2625",
+    "email": "info@alfredosmexicanfood.com",
+    "address": "911 N San Fernando Blvd, Burbank, CA",
+    "mapEmbedQuery": "Alfredo's Mexican Food, 911 N San Fernando Blvd, Burbank, CA",
     "hours": {
-      "Monday": "9:00 AM - 5:00 PM",
-      "Tuesday": "9:00 AM - 5:00 PM",
-      "Wednesday": "9:00 AM - 5:00 PM",
-      "Thursday": "9:00 AM - 5:00 PM",
-      "Friday": "9:00 AM - 5:00 PM",
-      "Saturday": "10:00 AM - 3:00 PM",
-      "Sunday": "Closed"
-    },
-    "mapEmbedQuery": "123+Main+St+City+ST"
+      "Monday": "9 AM – 9 PM",
+      "Tuesday": "9 AM – 9 PM",
+      "Wednesday": "9 AM – 9 PM",
+      "Thursday": "9 AM – 9 PM",
+      "Friday": "9 AM – 9 PM",
+      "Saturday": "9 AM – 9 PM",
+      "Sunday": "9 AM – 9 PM"
+    }
   },
   "seo": {
-    "title": "Sample Business | City, ST",
-    "description": "Sample Business in City, ST. Professional services you can trust.",
-    "keywords": ["sample business", "city ST", "professional services"]
+    "title": "Alfredo's Mexican Food — Authentic Mexican Restaurant in Burbank, CA",
+    "description": "Family-recipe tacos, burritos, combo plates, and catering in Burbank. Open daily 9 AM – 9 PM. Call (818) 972-2625.",
+    "keywords": [
+      "mexican food burbank",
+      "tacos burbank",
+      "burritos burbank",
+      "mexican restaurant burbank",
+      "authentic mexican burbank",
+      "alfredo's mexican food",
+      "catering burbank ca"
+    ]
   },
   "theme": {
-    "primaryColor": "#0a0a0a",
-    "accentColor": "#c8a97e",
-    "fontFamily": "modern"
-  }
+    "primaryColor": "#C84B31",
+    "accentColor": "#6B2C20",
+    "fontFamily": "playfair"
+  },
+  "social": {}
 }
