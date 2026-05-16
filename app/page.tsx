@@ -16,6 +16,9 @@ const GREEN = "#1B5E20";
 const CREAM = "#FFF8E7";
 const CHARCOAL = "#1A1A1A";
 
+
+const GALLERY = ["https://lh3.googleusercontent.com/gps-cs-s/APNQkAFVMdMQQEaoitHL5Lsr9qlfTZGPMw0Wr5pugVla2oBAQKVp870eQAsziZ7cbA1wozseIMDi440FOpniswWacaKmObjX44Oo3-dgIxZbCCrlmoGnsINK1_RSlhDRruZKYjETQnqgpkLR0rQ=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAEpFeqaXIdo20zK0IXk7AfsdyUGS15_6xbasykKzuddT85Ni496qvxmT0oO2iextaQj-peXmkvsmkOM2gwoqL90kW1x0MPkYXvn8dIIYT-3fWJoT4waAKYgxCrIoZ1G0H9MgOaiCzbPiGHH=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAHAzDoCM66oAC6B6c6tUvi_Scs9EvJs2u-RFTs6YRw36hb3oDOwMngDorDX9c3yl1Uty-19sba5-g-JT8N5FEyczEjoxydPKuIP86bIZirr1Ga79j7VmP_JfRItwy5SFlirpBHuY4251mY=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAEtX_c9gjh0GP_alH7gYXwMD2bnI4iPT6_Jise3w1CRDLSrP0N7mWONai3QVK0SffIVzV5PwCh1nn0dUsxfEECvQOs-L54-GYJQqrNafCH5ro17fy_kF_y-x6xt6DJ7p0LarwhjFIGPfJcy=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAH_Tn571ZEMvMZyEfj9mtYJIUaCDUu47plL5bdnkbNKQQ1Wf_q-CjfaVm41sU2B7gB7X29-KBLHhWpIRu4DIAuKvh805JzsR3j7PzB4wakXLZ2QYOmVxKht-KG4ZVizcqtsCGZkuQ=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAEcb8SHcKa3wBId5VDcDoxNZJSTE1-UFqQ19beV_WbaQrIHya23mrk_HOEATK5Q6Hf-vedWqghm_XNX0UUhJ8hq9Vt0QAtG5g3a5tR5nod2MIgTFKLth5HMxHt3wTrgsacrvngYhWB76ZE=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAEzZLslwr4IXHj45jbGzAvOPnU9VXl05ICUIeveBlXJu3G0ro9LlQAkBQoYvB3Z46peCFoPp5JGP63cxitENyxnq9_gR53D7mtOdzAxMiNa_byOTAY9ro_19f4MPF1VRdoFteKj11eHLayp=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAEkjU6FP80Atup4GTFYpA5pIpyoU7E4zfVh0TVM6mdNfGTk2_WXy5iArvxHd0a6GYHnfqIREDJKGNcQWstu2Zovw2VpT45Nodf41XrstuIYKNJ7ObzUBLPMtWBADaTGs2QAzED7=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAHscE90pm_mN6vjg3nW5t3FDM-N9PNYM6a53bQhami-a1zV_Ms0Byo78z5apFdhhEx9HeJ1c3r4CMIfvzemaM_-ewNYCcFRMvFJ9GkUjMgVH2PQwxaVsNv2F8u6i95yBVk5k5r45E-x5O0I=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAHTl6TbYeGagQvvJ6JMddMmpz0N7A0ZgbdBHgGITygTQUz-FbbCypSqP3PgpqhPQsuobXvZNFWM_ucnoDoHVAnFDLTzsChTpJ9UGhORRg4NcVDbbtJn2GtC6xKHYLq_YtaouSTxikRRKTw-=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAGVX-Rh2ERvLkVUXsIXNHSQlQgqAwOChQgzbuCOv4fgl01EvnI1AmM5T2k0YKlB0HrTELVHxlFtGD9PL-_u5TLiYwQMoDsiMDjJ1UC3T1cWYaVnWUpiILZdZlWZM8H8QVR4o8TTZ5m87xQ=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAF_FygynBOQllSw6AZ2DIRoSLhz3qm722aJTWJb08MmOLcUw4fFQuLOeGkxsWjZ-1SBg7K_PiYqTEpowpwmTeLeB2DMALbsgIWS4vOdVpI7jP1gCCMNas4OHULWm2Yk8YqXnyg4mw=w1920-h1080-k-no","https://lh3.googleusercontent.com/proxy/0wWd500O1sCsj1OWeA_05C6nQaadpsbQhXlQ5z6yCr_ODNp4fTRyy5hP_H6KktCiDZ6BW0yW00uEVFTBSJU_SkfX9v0JuHbc7HeyQxgZHL7Fy4Y6175T2xXypfKIXIIyEPT6UEgVEGzMDdkClxwd_aCGiROuj1HMb6m-Cg=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAEdlzZm99s0He2fHNbPt-y52QeaCytxd6Swn2XMX6xdQuVFnp9ZVsORDUY1j5gY_nJC61cPoNepqky_JvINUz6qs-3QmaL1ahgPgNFznuCuk1aqLHqHnKtl323H0Y1zU3U-tajG=w1920-h1080-k-no","https://lh6.googleusercontent.com/proxy/gLfSqkxF0qWJ-Vnrinn5XkN4Dhlf5QAONCPaEVgu__amumbPtDQ3yvDlYBzFig1IFaAuFGJQpW2Rlsi6l1r9qM0PGqakr3fEb7aUD0GFYJMJFimks-QGkCv5KvdkekF0nnjDQJ9i-1V1ZIQVu_FSEA9_ImKaVQNt-g6Xpw=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAFoXisdN8gQnhsPu5f5TnW_aFzCO1wKXtPJjF60PmTPyEEIx_rcWFjKH_aaawAurgxS7FE0iFMG8BaSt7B2HSwU_EyjNdRpDMSs3wbwsZC9e35tnf94cJ3r5PZsTP5l6YKsdVE=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAE2-LE1kir8t67q-3_nFwuUWaL3g_RiOHqgM4jr-6ye6bgjblaU0vAhrB4Z4tQFzUIHpbGM806mrgLN-ndqwo-5KzMzuEH40buvs2yEKxulSDVudJuWTh8tn9DhLqCftYSyIkQ=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAEKlnxKwVghnRXYHyjspvqblF1NHFTT4Yn0AxV4LURXNc7HHaQRDXh53mfzu20QbOcndqWmRKn2aS87UL-Wv_tEaHnhO36hLgDw86D0ysC9RjE6KH-EFrj79IJqOJEJA77v8hY=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAGXJl2VJs45-hpdyKWrnG0KWr8T_5kXEWo3XtFTNqFX70V0tIobn9Ks7JKfv8wPjwinAifBTnvaNtWcJ5oYMyRxzFo61RHohbuffpnFLpxs6JlOSHMGiIOp1BKfZHAYW4wrIFA=w1920-h1080-k-no","https://lh3.googleusercontent.com/gps-cs-s/APNQkAE6TSVT226Wb9fURr-ks9mOZVM6ozHltS0V0tkwZcxqPP0Ta3STwCtLwiz-rXhV_qQBhCcTyHq70jTwTPcuDg08vN0_O6A7VEXxqQ4SfCb_p4CQIyMNVqoP3B18Ypt7Zb3QWcgLyA=w1920-h1080-k-no"];
+
 export default function Page() {
   const phoneTel = "tel:" + content.contact.phone.replace(/[^0-9]/g, "");
   const mapUrl =
@@ -193,6 +196,26 @@ export default function Page() {
           </div>
           <div className="md:col-span-7" style={{ minHeight: "560px", boxShadow: `12px 12px 0 ${CHARCOAL}` }}>
             <iframe title="Alfredo's Location" width="100%" height="100%" loading="lazy" style={{ border: 0, minHeight: "560px", display: "block" }} referrerPolicy="no-referrer-when-downgrade" src={mapUrl} />
+          </div>
+        </div>
+      </section>
+
+      {/* GALLERY — festive geometric food grid */}
+      <section style={{ backgroundColor: CREAM }}>
+        <div className="max-w-[1400px] mx-auto px-6 md:px-10 py-24 md:py-32">
+          <div className="flex items-end justify-between mb-12">
+            <div>
+              <p style={{ fontSize: "0.85rem", fontWeight: 700, color: RED, textTransform: "uppercase", letterSpacing: "0.3em" }}>★ The Kitchen</p>
+              <h2 className={display.className} style={{ fontSize: "clamp(2.5rem, 6vw, 4.5rem)", color: CHARCOAL, lineHeight: 0.95, fontWeight: 700, marginTop: "1.5rem" }}>
+                Behind the<br /><span style={{ color: RED }}>counter.</span>
+              </h2>
+            </div>
+            <p className="hidden md:block text-sm font-bold uppercase tracking-widest" style={{ color: TEXT_MUTED || GOLD_DEEP }}>From our kitchen ↓</p>
+          </div>
+          <div className="grid md:grid-cols-4 gap-1">
+            {GALLERY.slice(0, 12).map((p, i) => (
+              <div key={i} className="aspect-square bg-cover bg-center transition-transform duration-500 hover:scale-105" style={{ backgroundImage: `url("${p}")` }} />
+            ))}
           </div>
         </div>
       </section>
