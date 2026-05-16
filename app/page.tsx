@@ -213,7 +213,7 @@ export default function Page() {
             <p className="hidden md:block text-sm font-bold uppercase tracking-widest" style={{ color: GOLD_DEEP }}>From our kitchen ↓</p>
           </div>
           <div className="grid md:grid-cols-4 gap-1">
-            {GALLERY.slice(0, 12).map((p, i) => (
+            {GALLERY.slice(0, 20).map((p, i) => (
               <div key={i} className="aspect-square bg-cover bg-center transition-transform duration-500 hover:scale-105" style={{ backgroundImage: `url("${p}")` }} />
             ))}
           </div>
