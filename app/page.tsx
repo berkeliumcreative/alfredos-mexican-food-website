@@ -210,7 +210,7 @@ export default function Page() {
                 Behind the<br /><span style={{ color: RED }}>counter.</span>
               </h2>
             </div>
-            <p className="hidden md:block text-sm font-bold uppercase tracking-widest" style={{ color: TEXT_MUTED || GOLD_DEEP }}>From our kitchen ↓</p>
+            <p className="hidden md:block text-sm font-bold uppercase tracking-widest" style={{ color: GOLD_DEEP }}>From our kitchen ↓</p>
           </div>
           <div className="grid md:grid-cols-4 gap-1">
             {GALLERY.slice(0, 12).map((p, i) => (
